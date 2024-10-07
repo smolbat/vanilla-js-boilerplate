@@ -93,7 +93,7 @@
     <div id="viewport-params-expand"></div>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
-        document.getElementById('mytext').innerHTML=window.location.search;
+        document.getElementById('mytext').innerHTML=window.location.hash;
         let initData = Telegram.WebApp.initData || '';
         document.getElementById('mytext2').innerHTML=initData;
         // Init TWA
